@@ -1,7 +1,6 @@
 package com.fmatheus.app.controller.proxy.service.impl;
 
 
-import feign.Param;
 import feign.RequestLine;
 import org.springframework.cloud.openfeign.FeignClient;
 

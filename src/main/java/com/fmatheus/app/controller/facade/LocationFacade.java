@@ -1,4 +1,4 @@
-package com.fmatheus.app.controller.rule;
+package com.fmatheus.app.controller.facade;
 
 
 import com.fmatheus.app.controller.proxy.service.impl.FeignLocationService;
@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 @Slf4j
 @RequiredArgsConstructor
 @Component
-public class LocationRule {
+public class LocationFacade {
 
     private final LocationProxy proxy;
     private final FeignLocationService locationService;
